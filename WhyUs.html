@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mermel Analytics | Dlaczego my?</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <header>
+        <span class="title"><a href="./index.html">Mermel Analytics</a></span>
+        <span class="navbar">
+            <a href="./AboutUs.html">O nas</a>
+            <a href="./Pricing.html">Cennik</a>
+            <a href="WhyUs.html">Dlaczego my?</a>
+        </span>
+        <div><span>Dzisiaj mamy:&nbsp;</span><span id="date"></span></div>
+    </header>
+    <br/>
+    <div>
+    <h3>Dlaczego warto wybrać nas?</h3>
+    <p>
+    Jesteśmy zespołem wysoce wykwalifikowanych naukowców i badaczy, specjalizujących się w chemii analitycznej.
+    Zaufało nam ponad 10 000 klientów. Nie zawiedliśmy żadnego.
+
+    <h3>Nasze Najnowsze Osiągnięcie: Analiza Tajemniczej Substancji z Meteorytu</h3>
+    Z dumą informujemy o naszym najnowszym projekcie – analizie nowej, nieznanej substancji pochodzącej z tajemniczego meteorytu.
+    Ten wyjątkowy meteoryt, odkryty w odległym zakątku świata, zawiera unikalne związki chemiczne, które nigdy wcześniej nie były obserwowane na Ziemi.
+
+    
+    <br/><br/>
+    </p>
+    </div>
+    <footer>
+        Copyright &copy; by Mermel Science Institute 2024
+    </footer>
+</body>
+
+<script>
+    n =  new Date();
+    y = n.getFullYear();
+    m = n.getMonth() + 1;
+    d = n.getDate();
+    document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+</script>
+
+</html>

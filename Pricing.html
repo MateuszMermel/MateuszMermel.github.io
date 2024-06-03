@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mermel Analytics | Cennik</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <header>
+        <span class="title"><a href="./index.html">Mermel Analytics</a></span>
+        <span class="navbar">
+            <a href="./AboutUs.html">O nas</a>
+            <a href="./Pricing.html">Cennik</a>
+            <a href="WhyUs.html">Dlaczego my?</a>
+        </span>
+        <div><span>Dzisiaj mamy:&nbsp;</span><span id="date"></span></div>
+    </header>
+    <br/>
+    <div>
+    <h3>Cennik</h3>
+    Posiadamy bardzo szeroki wybór metod analitycznych. Każdy przypadek wymaga indywidualnej konsultacji. Zachęcamy do kontaktu drogą mailową.
+    
+    <div>
+        <h3>Przykładowe ceny</h3>
+        <p>
+        <table>
+            <tr>
+                <th>Analiza składu jonowego</th>
+                <th>Od 50 do 250 PLN</th>
+            </tr>
+            <tr>
+                <th>Spektrometria mas</th>
+                <th>Od 350 do 1000 PLN</th>
+            </tr>
+            <tr>
+                <th>Miareczkowanie</th>
+                <th>Od 20 do 50 PLN</th>
+            </tr>
+        </table>
+        </p>
+    </div>
+    
+    
+    <div class="Contact us">
+        <h3>Skontaktuj się z nami!</h3>
+        <p><a href="mailto:AnalyticsContact@mermelinstitute.com">E-mail</a></p>
+    </div>
+    
+    <br/><br/>
+    </div>
+    <footer>
+        Copyright &copy; by Mermel Science Institute 2024
+    </footer>
+</body>
+
+<script>
+    n =  new Date();
+    y = n.getFullYear();
+    m = n.getMonth() + 1;
+    d = n.getDate();
+    document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+</script>
+
+</html>
